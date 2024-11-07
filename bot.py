@@ -29,7 +29,6 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
     channel = client.get_channel(CHANNEL ID)
-    
     if channel is not None:
         await channel.send(
             f'Hi {member.name}, welcome to my Discord server!'
