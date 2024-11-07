@@ -1,5 +1,5 @@
 # bot.py
-# Made by thereal.rory
+# Made by @thereal.rory on discord, therealrory on github
 import os
 import discord
 import math
@@ -28,7 +28,7 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-    channel = client.get_channel(1263460611216379955)
+    channel = client.get_channel(CHANNEL ID)
     
     if channel is not None:
         await channel.send(
